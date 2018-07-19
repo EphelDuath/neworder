@@ -1,0 +1,21 @@
+<?php return array (
+  'add_new_taxation' => 'Add New Tax',
+  'added' => 'Tax added.',
+  'could_not_find' => 'Could not find selected tax.',
+  'default' => 'Default',
+  'default_cannot_be_deleted' => 'Default tax cannot be deleted.',
+  'delete_taxation' => 'Delete Tax',
+  'deleted' => 'Tax deleted.',
+  'description' => 'Description',
+  'edit_taxation' => 'Edit Tax',
+  'name' => 'Name',
+  'select_taxation' => 'Select Tax',
+  'tax' => 'Tax',
+  'taxation' => 'Taxation',
+  'taxation_list' => 'Tax List',
+  'updated' => 'Tax updated.',
+  'value' => 'Value',
+  'taxation_exists' => 'Taxation name already exists with this value.',
+  'module_info_title' => 'Add some taxes here!',
+  'module_info_description' => 'Add multiple taxes, make a tax as default. Choose tax during item creation.'
+);

@@ -1,0 +1,32 @@
+{
+    "announcement" : {
+        "auth_required" : 1,
+        "max_file_size" : 1,
+        "allowed_file_extensions" : ["jpg","png","jpeg","pdf","doc","docx","xls","xlsx","txt"],
+        "max_no_of_files" : 2
+    },
+    "transaction" : {
+        "auth_required" : 1,
+        "max_file_size" : 1,
+        "allowed_file_extensions" : ["jpg","png","jpeg","pdf","doc","docx","xls","xlsx","txt"],
+        "max_no_of_files" : 2
+    },
+    "invoice" : {
+        "auth_required" : 1,
+        "max_file_size" : 1,
+        "allowed_file_extensions" : ["jpg","png","jpeg","pdf","doc","docx","xls","xlsx","txt"],
+        "max_no_of_files" : 2
+    },
+    "quotation" : {
+        "auth_required" : 1,
+        "max_file_size" : 1,
+        "allowed_file_extensions" : ["jpg","png","jpeg","pdf","doc","docx","xls","xlsx","txt"],
+        "max_no_of_files" : 2
+    },
+	"message" : {
+		"auth_required" : 1,
+		"max_file_size" : 1,
+		"allowed_file_extensions" : ["jpg","png","jpeg","pdf","doc","docx","xls","xlsx","txt"],
+		"max_no_of_files" : 1
+	}
+}

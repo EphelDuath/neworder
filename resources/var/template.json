@@ -1,0 +1,83 @@
+{
+	"welcome-email-customer" : {
+        "category" : "customer",
+        "subject" : "Welcome Email Customer | [COMPANY_NAME]",
+        "fields" : "NAME, EMAIL, PASSWORD, COMPANY_NAME, COMPANY_EMAIL, COMPANY_PHONE, COMPANY_WEBSITE, COMPANY_ADDRESS,CURRENT_DATE,CURRENT_DATE_TIME"
+    },
+    "welcome-email-staff" : {
+        "category" : "staff",
+        "subject" : "Welcome Email Staff | [COMPANY_NAME]",
+        "fields" : "NAME, EMAIL, PASSWORD, DESIGNATION, DEPARTMENT, ADDRESS, COMPANY_NAME, COMPANY_EMAIL, COMPANY_PHONE, COMPANY_WEBSITE, COMPANY_ADDRESS,CURRENT_DATE,CURRENT_DATE_TIME"
+    },
+    "birthday-email-customer" : {
+        "category" : "customer",
+        "subject" : "Happy Birthday [NAME] | [COMPANY_NAME]"
+    },
+    "anniversary-email-customer" : {
+        "category" : "customer",
+        "subject" : "Wish You a Very Happy Anniversary [NAME] | [COMPANY_NAME]"
+    },
+    "birthday-email-staff" : {
+        "category" : "staff",
+        "subject" : "Happy Birthday [NAME] | [COMPANY_NAME]"
+    },
+    "anniversary-email-staff" : {
+        "category" : "staff",
+        "subject" : "Wish You a Very Happy Anniversary [NAME] | [COMPANY_NAME]"
+    },
+    "send-invoice" : {
+        "category" : "invoice",
+        "subject" : "Send Invoice | [COMPANY_NAME]",
+        "fields" : "CUSTOMER_NAME, CUSTOMER_EMAIL, CUSTOMER_PHONE, INVOICE_NUMBER, REFERENCE_NUMBER, INVOICE_DATE, INVOICE_DUE_DATE, INVOICE_TOTAL, INVOICE_LINK,CURRENT_DATE,CURRENT_DATE_TIME"
+    },
+    "invoice-payment-reminder" : {
+        "category" : "invoice",
+        "subject" : "Invoice Payment Reminder | [COMPANY_NAME]",
+        "fields" : "CUSTOMER_NAME, CUSTOMER_EMAIL, CUSTOMER_PHONE, INVOICE_NUMBER, REFERENCE_NUMBER, INVOICE_DATE, INVOICE_DUE_DATE, INVOICE_TOTAL, INVOICE_LINK,CURRENT_DATE,CURRENT_DATE_TIME"
+    },
+    "invoice-overdue" : {
+        "category" : "invoice",
+        "subject" : "Invoice Overdue | [COMPANY_NAME]",
+        "fields" : "CUSTOMER_NAME, CUSTOMER_EMAIL, CUSTOMER_PHONE, INVOICE_NUMBER, REFERENCE_NUMBER, INVOICE_DATE, INVOICE_DUE_DATE, INVOICE_TOTAL, INVOICE_LINK,CURRENT_DATE,CURRENT_DATE_TIME"
+    },
+    "invoice-payment-confirmation" : {
+        "category" : "invoice-payment",
+        "subject" : "Invoice Payment Confirmation [COMPANY_NAME]",
+        "fields" : "CUSTOMER_NAME, CUSTOMER_EMAIL, CUSTOMER_PHONE, INVOICE_NUMBER, REFERENCE_NUMBER, INVOICE_DATE, INVOICE_DUE_DATE, INVOICE_TOTAL, INVOICE_LINK,CURRENT_DATE,CURRENT_DATE_TIME, PAYMENT_AMOUNT, PAYMENT_METHOD, PAYMENT_DATE, TRANSACTION_TOKEN"
+    },
+    "send-quotation" : {
+        "category" : "quotation",
+        "subject" : "Send Quotation | [COMPANY_NAME]",
+        "fields" : "CUSTOMER_NAME, CUSTOMER_EMAIL, CUSTOMER_PHONE, QUOTATION_NUMBER, REFERENCE_NUMBER, QUOTATION_DATE, QUOTATION_EXPIRY_DATE, QUOTATION_TOTAL, QUOTATION_LINK,CURRENT_DATE,CURRENT_DATE_TIME"
+    },
+    "quotation-reminder" : {
+        "category" : "quotation",
+        "subject" : "Quotation Reminder [COMPANY_NAME]",
+        "fields" : "CUSTOMER_NAME, CUSTOMER_EMAIL, CUSTOMER_PHONE, QUOTATION_NUMBER, REFERENCE_NUMBER, QUOTATION_DATE, QUOTATION_EXPIRY_DATE, QUOTATION_TOTAL, QUOTATION_LINK,CURRENT_DATE,CURRENT_DATE_TIME"
+    },
+    "quotation-accepted" : {
+        "category" : "quotation",
+        "subject" : "Quotation Accepted | [COMPANY_NAME]",
+        "fields" : "CUSTOMER_NAME, CUSTOMER_EMAIL, CUSTOMER_PHONE, QUOTATION_NUMBER, REFERENCE_NUMBER, QUOTATION_DATE, QUOTATION_EXPIRY_DATE, QUOTATION_TOTAL, QUOTATION_LINK,CURRENT_DATE,CURRENT_DATE_TIME"
+    },
+    "quotation-rejected" : {
+        "category" : "quotation",
+        "subject" : "Quotation Rejected | [COMPANY_NAME]",
+        "fields" : "CUSTOMER_NAME, CUSTOMER_EMAIL, CUSTOMER_PHONE, QUOTATION_NUMBER, REFERENCE_NUMBER, QUOTATION_DATE, QUOTATION_EXPIRY_DATE, QUOTATION_TOTAL, QUOTATION_LINK,CURRENT_DATE,CURRENT_DATE_TIME"
+    },
+    "quotation-expired" : {
+        "category" : "quotation",
+        "subject" : "Quotation Expired | [COMPANY_NAME]",
+        "fields" : "CUSTOMER_NAME, CUSTOMER_EMAIL, CUSTOMER_PHONE, QUOTATION_NUMBER, REFERENCE_NUMBER, QUOTATION_DATE, QUOTATION_EXPIRY_DATE, QUOTATION_TOTAL, QUOTATION_LINK,CURRENT_DATE,CURRENT_DATE_TIME"
+    },
+    "invoice-payment-success" : {
+        "category" : "invoice-payment",
+        "subject" : "Invoice Payment Success | [COMPANY_NAME]",
+        "fields" : "CUSTOMER_NAME, CUSTOMER_EMAIL, CUSTOMER_PHONE, INVOICE_NUMBER, REFERENCE_NUMBER, INVOICE_DATE, INVOICE_DUE_DATE, INVOICE_TOTAL, INVOICE_LINK, PAYMENT_AMOUNT, PAYMENT_SOURCE, TRANSACTION_TOKEN, TRANSACTION_DATE, CURRENT_DATE, CURRENT_DATE_TIME"
+    },
+    "invoice-payment-failure" : {
+        "category" : "invoice-payment",
+        "subject" : "Invoice Payment Failure | [COMPANY_NAME]",
+        "fields" : "CUSTOMER_NAME, CUSTOMER_EMAIL, CUSTOMER_PHONE, INVOICE_NUMBER, REFERENCE_NUMBER, INVOICE_DATE, INVOICE_DUE_DATE, INVOICE_TOTAL, INVOICE_LINK, PAYMENT_AMOUNT, PAYMENT_SOURCE, TRANSACTION_TOKEN, TRANSACTION_DATE, TRANSACTION_FAILURE_REASON, CURRENT_DATE, CURRENT_DATE_TIME"
+    }
+}

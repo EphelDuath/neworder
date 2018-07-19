@@ -1,0 +1,15 @@
+{
+	"api/message/compose" : ["body"],
+	"api/message/reply" : ["body"],
+	"api/email-template/*" : ["body"],
+	"api/announcement" : ["description"],
+	"api/announcement/*" : ["description"],
+	"api/message/compose" : ["body"],
+	"api/message/reply" : ["body"],
+	"api/email-template/*" : ["body"],
+	"api/invoice/*/email" : ["body"],
+	"api/quotation/*/email" : ["body"],
+	"api/quotation" : ["description"],
+	"api/quotation/*" : ["description"],
+	"api/user/*/*/email" : ["body"]
+}

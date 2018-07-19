@@ -1,0 +1,345 @@
+{
+	"default_config" : {
+		"color_theme" : "green" ,
+	    "direction" : "ltr" ,
+	    "locale" : "en" ,
+	    "timezone" : "Asia/Kolkata" ,
+	    "notification_position" : "toast-bottom-right" ,
+	    "date_format" : "DD-MM-YYYY" ,
+	    "time_format" : "H:mm" ,
+	    "page_length" : 10 ,
+	    "driver" : "log" ,
+	    "from_address" : "hello@example.com" ,
+	    "from_name" : "Hello" ,
+	    "token_lifetime" : 120 ,
+	    "reset_password_token_lifetime" : 30 ,
+	    "activity_log" : 1 ,
+	    "email_log" : 1 ,
+	    "reset_password" : 1 ,
+	    "registration" : 1 ,
+	    "mode" : 1 ,
+	    "footer_credit" : "Designed with love by ScriptMint" ,
+	    "multilingual" : 1 ,
+	    "ip_filter" : 1 ,
+	    "email_template" : 1 ,
+	    "message" : 1 ,
+	    "backup" : 1 ,
+	    "todo" : 1 ,
+	    "designation_subordinate_level" : 1,
+	    "announcement" : 1,
+	    "coupon" : 1,
+	    "show_company_menu" : 1,
+	    "show_account_menu" : 1,
+	    "show_transaction_menu" : 1,
+	    "show_income_menu" : 1,
+	    "show_expense_menu" : 1,
+	    "show_account_transfer_menu" : 1,
+	    "show_customer_menu" : 1,
+	    "show_supplier_menu" : 1,
+	    "show_invoice_menu" : 1,
+	    "show_quotation_menu" : 1,
+	    "show_item_menu" : 1,
+	    "show_announcement_menu" : 1,
+	    "show_coupon_menu" : 1,
+	    "show_staff_menu" : 1,
+	    "invoice_partial_payment" : 1,
+	    "invoice_default_line_item_discount" : 1,
+	    "invoice_default_line_item_tax" : 1,
+	    "invoice_default_line_item_description" : 1,
+	    "invoice_default_subtotal_discount" : 1,
+	    "invoice_default_subtotal_tax" : 1,
+	    "invoice_default_subtotal_shipping_and_handling" : 1,
+	    "invoice_random_reference_number" : 1,
+	    "invoice_prefix" : "SM",
+	    "invoice_number_digit" : 3,
+	    "invoice_start_number" : 1,
+	    "invoice_line_item_quantity_decimal_place" : 2,
+	    "invoice_line_item_tax_decimal_place" : 2,
+	    "invoice_line_item_discount_decimal_place" : 2,
+	    "invoice_subtotal_discount_decimal_place" : 2,
+	    "invoice_subtotal_tax_decimal_place" : 2,
+	    "invoice_subtotal_shipping_and_handling_decimal_place" : 2,
+	    "quotation_default_line_item_discount" : 1,
+	    "quotation_default_line_item_tax" : 1,
+	    "quotation_default_line_item_description" : 1,
+	    "quotation_default_subtotal_discount" : 1,
+	    "quotation_default_subtotal_tax" : 1,
+	    "quotation_default_subtotal_shipping_and_handling" : 1,
+	    "quotation_random_reference_number" : 1,
+	    "quotation_prefix" : "SM",
+	    "quotation_number_digit" : 3,
+	    "quotation_start_number" : 1,
+	    "quotation_line_item_quantity_decimal_place" : 2,
+	    "quotation_line_item_tax_decimal_place" : 2,
+	    "quotation_line_item_discount_decimal_place" : 2,
+	    "quotation_subtotal_discount_decimal_place" : 2,
+	    "quotation_subtotal_tax_decimal_place" : 2,
+	    "quotation_subtotal_shipping_and_handling_decimal_place" : 2
+	},
+	"default_role" : { 
+		"admin" : "admin" ,
+		"staff" : "staff" ,
+		"customer" : "customer"
+	},
+	"default_template_field" : { 
+		"staff" : "NAME, EMAIL, COMPANY_NAME, COMPANY_EMAIL, COMPANY_PHONE, COMPANY_WEBSITE, CURRENT_DATE_TIME, CURRENT_DATE, DATE_OF_BIRTH, DATE_OF_ANNIVERSARY, DEPARTMENT, DESIGNATION",
+		"customer" : "NAME, EMAIL, COMPANY_NAME, COMPANY_EMAIL, COMPANY_PHONE, COMPANY_WEBSITE, CURRENT_DATE_TIME, CURRENT_DATE, DATE_OF_BIRTH, DATE_OF_ANNIVERSARY",
+		"invoice" : "CUSTOMER_NAME, CUSTOMER_EMAIL, CUSTOMER_PHONE, INVOICE_NUMBER, REFERENCE_NUMBER, INVOICE_DATE, DUE_DATE, INVOICE_TOTAL, INVOICE_LINK" 
+	},
+	"hidden_field" : "xxxxxxxxxx",
+	"private_config_variables" : [
+		"smtp_username",
+		"smtp_password",
+        "mailgun_username",
+        "mailgun_password",
+        "mailgun_secret",
+        "mandrill_secret",
+        "nexmo_api_key",
+        "nexmo_api_secret",
+        "facebook_client",
+        "facebook_secret",
+        "twitter_client",
+        "twitter_secret",
+        "github_client",
+        "github_secret",
+        "paypal_client_id",
+        "paypal_client_secret",
+        "stripe_private_key"
+	],
+	"public_config" : [
+		"color_theme",
+        "date_format",
+        "time_format",
+        "notification_position",
+        "direction",
+        "maintenance_mode",
+        "registration",
+        "reset_password",
+        "password_strength_meter",
+        "two_factor_security",
+        "social_login",
+        "https",
+        "mode",
+        "email_verification",
+        "footer_credit",
+        "ip_filter"
+	],
+	"upload_path" : { 
+		"logo" : "uploads/logo" ,
+		"avatar" : "uploads/avatar" 
+	},
+	"pagination" : [
+		"5","10","25","50","100"
+	],
+	"default_permission" : [
+		"access-configuration",
+        "list-designation",
+        "create-designation",
+        "edit-designation",
+        "delete-designation",
+        "access-all-designation",
+        "access-subordinate-designation",
+        "list-account",
+        "create-account",
+        "edit-account",
+        "delete-account",
+        "list-account-transfer",
+        "edit-account-transfer",
+        "delete-account-transfer",
+        "create-account-transfer",
+        "list-announcement",
+        "create-announcement",
+        "edit-announcement",
+        "delete-announcement",
+        "list-company",
+        "create-company",
+        "edit-company",
+        "delete-company",
+        "list-supplier",
+        "create-supplier",
+        "edit-supplier",
+        "delete-supplier",
+        "list-coupon",
+        "create-coupon",
+        "edit-coupon",
+        "delete-coupon",
+        "list-customer",
+        "create-customer",
+        "edit-customer",
+        "delete-customer",
+        "force-reset-password-customer",
+        "email-customer",
+        "change-status-customer",
+        "list-department",
+        "create-department",
+        "edit-department",
+        "delete-department",
+        "list-expense",
+        "create-expense",
+        "edit-expense",
+        "delete-expense",
+        "list-income",
+        "create-income",
+        "edit-income",
+        "delete-income",
+        "list-item",
+        "create-item",
+        "edit-item",
+        "delete-item",
+        "access-message",
+        "list-quotation",
+        "create-quotation",
+        "edit-quotation",
+        "delete-quotation",
+        "list-invoice",
+        "create-invoice",
+        "edit-invoice",
+        "delete-invoice",
+        "list-staff",
+        "edit-staff",
+        "create-staff",
+        "delete-staff",
+        "force-reset-password-staff",
+        "email-staff",
+        "change-status-staff",
+        "access-todo",
+        "enable-login",
+        "make-invoice-payment"
+	],
+	"social_login_providers" : [
+		"facebook",
+		"twitter",
+		"github"
+	],
+	"mail_drivers" : [
+		{
+			"text": "Mail",
+			"value": "mail"
+		},
+		{
+			"text": "Sendmail",
+			"value": "sendmail"
+		},
+		{
+			"text": "Mailgun",
+			"value": "mailgun"
+		},
+		{
+			"text": "Mandrill",
+			"value": "mandrill"
+		},
+		{
+			"text": "SMTP",
+			"value": "smtp"
+		},
+		{
+			"text": "Log",
+			"value": "log"
+		}
+	],
+	"color_themes" : [
+		{ 
+			"text" : "Blue",
+			"value" : "blue" 
+		},
+		{ 	
+			"text" : "Blue with Dark Sidebar",
+			"value" : "blue-dark"
+		},
+		{ 
+			"text" : "Red",
+			"value" : "red"
+		},
+		{ 
+			"text" : "Red with Dark Sidebar",
+			"value" : "red-dark"
+		},
+		{ 
+			"text" : "Default",
+			"value" : "default"
+		},
+		{ 
+			"text" : "Default with Dark Sidebar",
+			"value" : "default-dark"
+		},
+		{ 
+			"text" : "Green",
+			"value" : "green"
+		},
+		{ 
+			"text" : "Green with Dark Sidebar",
+			"value" : "green-dark"
+		},
+		{ 
+			"text" : "Megna",
+			"value" : "megna"
+		},
+		{ 
+			"text" : "Megna with Dark Sidebar",
+			"value" : "megna-dark"
+		},
+		{ 
+			"text" : "Purple",
+			"value" : "purple"
+		},
+		{ 
+			"text" : "Purple with Dark Sidebar",
+			"value" : "purple-dark"
+		}
+	],
+	"directions" : [
+		{ 
+			"text" : "Right to Left",
+			"value" : "rtl"
+		},
+		{ 	"text" : "Left to Right",
+			"value" : "ltr"
+		}
+	],
+	"date_formats" : [
+		{ 
+			"text" : "DD-MM-YYYY",
+			"value" : "DD-MM-YYYY"
+		},
+		{ 
+			"text" : "MM-DD-YYYY",
+			"value" : "MM-DD-YYYY"
+		},
+		{ 
+			"text" : "DD-MMM-YYYY",
+			"value" : "DD-MMM-YYYY"
+		},
+		{ 
+			"text" : "MMM-DD-YYYY",
+			"value" : "MMM-DD-YYYY"
+		}
+	],
+	"time_formats" : [
+		{ 
+			"text" : "H:mm",
+			"value" : "H:mm"
+		},
+		{ 
+			"text" : "h:mm a",
+			"value" : "h:mm a"
+		}
+	],
+	"notification_positions" : [
+		{ 
+			"text" : "Top Right",
+			"value" : "toast-top-right"
+		},
+		{ 
+			"text" : "Top Left",
+			"value" : "toast-top-left"
+		},
+		{ 
+			"text" : "Bottom Right",
+			"value" : "toast-bottom-right"
+		},
+		{ 
+			"text" : "Bottom Left",
+			"value" : "toast-bottom-left"
+		}
+	]
+}
